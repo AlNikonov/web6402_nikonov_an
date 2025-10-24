@@ -103,3 +103,13 @@ body {
 .align-right {
     text-align: right;
 }
+
+#footer {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
