@@ -76,6 +76,12 @@ body {
     line-height: 1.5;
 }
 
+.product-price {
+    width: 120px;
+    flex-shrink: 0;
+    font-weight: bold;
+}
+
 .schedule-table {
     width: 100%;
     border-collapse: collapse;
