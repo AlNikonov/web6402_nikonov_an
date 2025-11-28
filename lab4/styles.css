@@ -153,3 +153,59 @@ body {
     background-color: #0056b3;
     color: white;
 }
+
+.login-form {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 15px;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.login-form label {
+    font-weight: bold;
+    text-align: right;
+    padding-top: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form .form-checkbox-group {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.login-form .form-checkbox-group label {
+    text-align: left;
+    padding-top: 0;
+    font-weight: normal;
+}
+
+.login-form .submit-btn {
+    grid-column: 1 / -1;
+    width: 220px;
+    margin: 10px auto;
+    padding: 12px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-form .submit-btn:hover {
+    background-color: #004499;
+}
