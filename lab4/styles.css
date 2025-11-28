@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+    color: #333;
+}
+
+#main-header {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-link {
+    display: inline-block;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.nav-link:hover {
+    background-color: #004499;
+}
+
+.container {
+    width: 60vw;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.product-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;    
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.product-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+.product-details {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.product-details h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #0056b3;
+}
+
+.product-details p {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.product-price {
+    width: 120px;
+    flex-shrink: 0;
+    font-weight: bold;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.schedule-table th, .schedule-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.schedule-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+#footer {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}
+
+.checkout-btn {
+    width: 220px;
+    margin: 30px auto 10px;
+    padding: 15px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background-color: #004499;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.cart-table th, .cart-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.cart-table th {
+    background-color: #0056b3;
+    color: white;
+}
