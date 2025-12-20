@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Корзина | SimpleShop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <nav>
+            <a href="index.html" class="nav-link">Главная</a>
+            <a href="products.html" class="nav-link">Товары</a>
+            <a href="contacts.html" class="nav-link">Контакты</a>
+            <a href="login.html" class="nav-link">Вход</a>
+            <a href="cart.html" class="nav-link">Корзина</a>
+        </nav>
+    </header>
+
+    <div class="container">       
+        <h2>Ваша корзина</h2>
+
+        <p id="last-update" style="font-size: 0.8em; color: gray; text-align: right;">Ожидание загрузки...</p>
+
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th class="align-left">Товар</th>
+                    <th class="align-center">Количество</th>
+                    <th class="align-right">Цена за шт.</th>
+                    <th class="align-right">Итого</th>
+                </tr>
+            </thead>
+            <tbody id="cart-body">
+                <!-- Сюда вставятся данные -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="align-right" style="font-weight: bold;">Общая стоимость:</td>
+                    <td class="align-right" style="font-weight: bold;" id="total-price">0 руб.</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <button class="checkout-btn">Оформить заказ</button>
+
+    </div>
+
+    <footer id="footer">
+        <p>2025</p>
+    </footer>
+
+    <script src="scripts.js" defer></script>
+
+</body>
+</html>

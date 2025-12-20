@@ -1,0 +1,30 @@
+{
+  "/cart": {
+    "get": [
+      {
+        "id": 1,
+        "name": "Товар 1",
+        "count": 2,
+        "price": 1000
+      },
+      {
+        "id": 2,
+        "name": "Товар 3",
+        "count": 1,
+        "price": 1500
+      },
+      {
+        "id": 3,
+        "name": "Товар 5",
+        "count": 5,
+        "price": 500
+      }
+    ]
+  },
+  "/login-attempts": {
+    "post": {
+      "success": true,
+      "message": "Данные формы успешно получены сервером"
+    }
+  }
+}
